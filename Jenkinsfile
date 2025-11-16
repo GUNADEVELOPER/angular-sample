@@ -1,6 +1,5 @@
 pipeline {
   agent any
-  tools { nodejs 'NodeJS-18' }
   environment {
     AWS_REGION = 'ap-south-1'
   }
